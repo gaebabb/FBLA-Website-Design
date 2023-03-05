@@ -4,41 +4,46 @@
     <title>FBLA Mock Website: Common Heart Coffee Shop</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="common heart/style.css">
+    <link rel="icon" type="image/x-icon" href="common heart/favicon.png">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
         <nav class="menus">
           <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-          </label>
+          <label for="check" class="checkbtn"></label>
           <label class="logo">Common Heart</label>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </nav>
       </div>
       <section class="bckgrnd"></section>
-    <main>
-      <section>
-        <p>Your choice for coffee on Mooney Blvd. Come try our heart happy classics!</p>
-      </section>
-      <section>
-        <div id="Menu">
-        <h2>Our Menu</h2>
-      </div>
-      </section>
-      <section>
-        <div id="About">
-        <h2>About Common Heart</h2>
-        <p>Common Heart has been in Visalia since 2023 and we've made many people happy with our common love for coffee.</p>
-      </div>
-      </section>
-      <section>
-        <h2>Contact Us</h2>
+  </div>
+<section>
+  <div id="Menu">
+    <h2>Our Menu</h2>
+    <img src="common heart/coffeestock1.jpg" class="classic1">
+    <img src="common heart/coffeestock3.jpg" class="classic2">
+    <img src="" class="classic3">
+    <p class="cls1">al;kdfja;slkd;fasd</p><p class="cls2">aslkdfja;lkdjf </p><p class="cls3">asldkjfa;skdfa</p>
+  </div>
+</section>  
+  <section>
+    <div id="About">
+      <h2>About Common Heart</h2>
+      <p class="about">Common Heart has been in Visalia since 2023 and we've made many people happy with our common love for coffee.</p>
+    </div>
+  </section>
+  <section>
+    <div class="small">
+      <h2 class="hello">Contact Us</h2>
         <p>Phone: 559-741-1247</p>
         <p>Instagram: @commonheartvisalia</p>
         <p>Address: 520 Mooney Blvd</p>
+    </div>
+    <footer>Made by Gabriel Atienza and Dominic Nguyen</footer>
+  </section>
+    </body>
