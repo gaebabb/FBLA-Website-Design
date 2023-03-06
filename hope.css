@@ -173,7 +173,39 @@ a.active,a:hover {
     padding: 5px;
   }
 
-  .aboutus {
-    text-align: center;
-    text-decoration: underline;
+  .aboutushead {
+    background-color: #2196F3;
+    font-size: 100px;
+    color: whitesmoke;
   }
+
+  .aboutus {
+    line-height: 42px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+    font-size: 28px;
+  }
+
+  .newa {
+    background: url(familywithbikes1.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh
+  }
+.newarrivals {
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.bikedif {
+  text-align: center;
+  font-size: 100px;
+}
+
+.aboutusbck {
+  background: url(https://www.gannett-cdn.com/-mm-/e546aeb6f740bb3955c1fa22814cd35d998cc158/c=0-0-1996-1128/local/-/media/2015/12/09/Visalia/B9319838020Z.1_20151209181655_000_GH7CM3J2D.1-0.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh
+}
