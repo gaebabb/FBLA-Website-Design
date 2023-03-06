@@ -16,7 +16,7 @@
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             <a href="#shop">Shop</a>
-            <input type="text" placeholder="Search..">
+            <input class="form-control" type="text" placeholder="Search..">
           </div>
           <div>
             <section src="visaliacyclerystore.jpg" class="bckgrnd">
@@ -55,5 +55,48 @@
             </section>
           </div>
         </div>
+        <section>
+          <div class="parent-wrapper">
+            <span class="close-btn glyphicon glyphicon-remove"></span>
+            <div class="subscribe-wrapper">
+              <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+              <input type="email" name="email" class="subscribe-input" placeholder="Your e-mail">
+              <div class="submit-btn">SUBMIT</div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="fcf-body">
+  
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Contact us</h3>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+        </section>
         </body>
         
