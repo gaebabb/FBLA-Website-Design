@@ -154,7 +154,7 @@ a.active,a:hover {
 
 .column {
     float: left;
-    width: 25%;
+    width: 33.33%;
     padding: 5px;
   }
 
@@ -168,16 +168,13 @@ a.active,a:hover {
     display: flex;
   }
   
-  .column {
-    flex: 25%;
-    padding: 5px;
-  }
 
-  .aboutushead {
-    background-color: #2196F3;
-    font-size: 100px;
-    color: whitesmoke;
-  }
+
+.aboutushead {
+  background-color: #2196F3;
+  font-size: 100px;
+  color: whitesmoke;
+}
 
   .aboutus {
     line-height: 42px;
@@ -535,8 +532,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   background-color: #8e62dc;
 }
 
-.road {
+.bikesection {
   text-align: center;
   font-size: 75px;
   text-decoration: underline;
+}
+
+.roadbikes {
+  font-size: 50px;
 }
