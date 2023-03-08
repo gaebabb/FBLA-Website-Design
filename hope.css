@@ -8,9 +8,17 @@ nav {
     width: 100%;
 }
 
+h1 {
+  font-family: 'Tilt Warp', cursive;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
 .logo {
     font-size: 70px;
     text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
 }
 
 nav ul {
@@ -176,18 +184,26 @@ a.active,a:hover {
   color: whitesmoke;
 }
 
+.aboutuspic {
+  width: 50%;
+  height: 50em;
+  float: left;
+}
+
   .aboutus {
-    line-height: 42px;
+    padding-left: 5px;
+    line-height: 38px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blanchedalmond;
-    font-size: 28px;
+    color: black;
+    font-size: 30px;
+    text-align: right;
   }
 
   .newa {
     background: url(familywithbikes1.jpg) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh
+    height: 100vh
   }
 .newarrivals {
     text-align: center;
@@ -201,10 +217,9 @@ a.active,a:hover {
 }
 
 .aboutusbck {
-  background: url(https://www.gannett-cdn.com/-mm-/e546aeb6f740bb3955c1fa22814cd35d998cc158/c=0-0-1996-1128/local/-/media/2015/12/09/Visalia/B9319838020Z.1_20151209181655_000_GH7CM3J2D.1-0.jpg) no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 120vh
+  height: 100vh
 }
 
 .container {
@@ -482,7 +497,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   height: 0;
   border-left: 0px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #7149c7;
+  border-bottom: 10px solid #0082e6;
 }
 
 .subscribe-wrapper h4 {
@@ -506,7 +521,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .subscribe-wrapper input:focus {
   outline: none;
-  border-bottom: 1px solid #a77cf4;
+  border-bottom: 1px solid #0082e6;
 }
 
 .subscribe-wrapper .submit-btn {
@@ -514,7 +529,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   border-radius: 30px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  background-color: #a77cf4;
+  background-color: #0082e6;
   color: #FFF;
   padding: 12px 25px;
   display: inline-block;
@@ -540,4 +555,91 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .roadbikes {
   font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.footer-clean {
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
 }
