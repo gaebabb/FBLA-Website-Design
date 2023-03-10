@@ -2,38 +2,28 @@ body {
     font-family: monserrat;
 }
 
+.bikelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 150px;
+    width: 400px;
+}
 nav { 
-    background: #0082e6;
-    height: 80px;
+    background: white;
+    height: 150px;
     width: 100%;
 }
 
 h1 {
-  font-family: 'Tilt Warp', cursive;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  font-family: 'Outfit', sans-serif;
+  margin-block-start: 5px;
 }
 
-.logo {
-    font-size: 70px;
-    text-align: center;
-    font-family: 'Tilt Warp', cursive;
-    color: white;
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -106,7 +96,7 @@ a.active,a:hover {
     
 }
 .bckgrnd {
-    background: url(visaliacyclerystore.jpg) no-repeat;
+    background: url(storefront1.JPG) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
@@ -114,7 +104,9 @@ a.active,a:hover {
 
 .topnav {
     overflow: hidden;
-    background-color: #e9e9e9;
+    float: none;
+    position: absolute;
+    left: 35%;
   }
 
   .topnav a {
@@ -133,8 +125,8 @@ a.active,a:hover {
   }
 
   .topnav a.active {
-    background-color: #2196F3;
-    color: white;
+    background-color: #ddd;
+    color: black;
   }
 
   .topnav input[type=text] {
@@ -160,50 +152,45 @@ a.active,a:hover {
     }
   }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
 .row {
     display: flex;
   }
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
   
-
-
 .aboutushead {
-  background-color: #2196F3;
-  font-size: 100px;
-  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+  font-size: 90px;
+  color: white;
 }
 
 .aboutuspic {
   width: 50%;
-  height: 50em;
+  height: 40em;
   float: left;
 }
 
   .aboutus {
     padding-left: 5px;
-    line-height: 38px;
+    line-height: 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 30px;
+    font-size: 24px;
     text-align: right;
   }
 
   .newa {
-    background: url(familywithbikes1.jpg) no-repeat;
+    background: url(newarrivals1.JPG) no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh
+    height: 100vh;
+    margin-block-start: 0.2;
+    margin-block-end: 0.2;
   }
 .newarrivals {
     text-align: center;
@@ -214,6 +201,8 @@ a.active,a:hover {
 .bikedif {
   text-align: center;
   font-size: 100px;
+  color: white;
+  background-color: black;
 }
 
 .aboutusbck {
@@ -642,4 +631,195 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
   margin-bottom:0;
   font-size:13px;
   opacity:0.6;
+}
+
+.row1 {
+  display: flex;
+}
+
+.column1 {
+  flex: 50%;
+  padding: 5px;
+  float: left;
+  width: 33.33%;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column2 {
+  flex: 50%;
+  padding: 5px;
+  float: left;
+  width: 33.33%;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.shop {
+  padding-top: 75px;
+}
+
+.roadbutton {
+  --c:  #90EE90;
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+
+.roadbutton:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+}
+.roadbutton:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.roadbutton {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  position: absolute;
+  top: 32.5%;
+  left: 9.5%;
+  color: #90EE90;
+}
+
+.mountainbutton {
+  --c:  #90EE90; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.mountainbutton:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+}
+.mountainbutton:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.mountainbutton {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  position: absolute;
+  top: 32.5%;
+  right: 3.5%;
+  color: #90EE90;
+}
+
+.electricbutton {
+  --c:  #90EE90; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.electricbutton:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+}
+.electricbutton:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.electricbutton {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  position: absolute;
+  top: 12.2em;
+  left: 6.5%;
+  color: #90EE90;
+}
+
+.kidsbutton {
+  --c:  #90EE90; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.kidsbutton:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+}
+.kidsbutton:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.kidsbutton {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+  position: absolute;
+  top: 12.2em;
+  right: 9%;
+  color: #90EE90;
 }
